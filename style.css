@@ -11,6 +11,11 @@ form p, form p a{
     text-decoration: none;
     color: #000;
 }
+#email, #password,button{
+    margin-top: 12px;
+    width: 270px;
+    height: 35px;
+}
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Lobster&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 body {
@@ -21,7 +26,7 @@ body {
 
 section{
     width: 100%;
-   margin-top: 115px;
+   margin-top: 200px;
    
 }
 .one-piece{
@@ -31,8 +36,8 @@ section{
 }
 
 .item{
- height: 300px;
-    width: 300px;
+ height: 400px;
+ width: 400px;
   border:1px solid gainsboro;  
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s, box-shadow 0.3s;
@@ -49,8 +54,8 @@ section{
     display: flex;
     position: relative;
     top: 29%;
-    width: 100px;
-    height: 100px;
+    width: 190px;
+    height: 190px;
     border-radius: 100%;
     justify-content:center ;
     align-items: center;
@@ -82,6 +87,11 @@ section{
    .pic{
     height: 100px;
    }
+   #email, #password,button{
+    margin-top: 12px;
+    width: 270px;
+    height: 35px;
+}
 }
 form div{
     margin: auto;
