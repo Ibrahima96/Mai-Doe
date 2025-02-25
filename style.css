@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #f8f9fb;
+    font-family: 'Nunito', sans-serif;
+   
+    
+}
+form p, form p a{
+    text-decoration: none;
+    color: #000;
+}
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Lobster&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body {
+    background: linear-gradient(to right, #f8f9fb, #e0eafc);
+    font-family: 'Nunito', sans-serif;
+    color: #333;
+}
+
+section{
+    width: 100%;
+   margin-top: 115px;
+   
+}
+.one-piece{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item{
+ height: 300px;
+    width: 300px;
+  border:1px solid gainsboro;  
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.pic{
+    background: #03b8a7;
+}
+ img{
+    display: flex;
+    position: relative;
+    top: 29%;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    justify-content:center ;
+    align-items: center;
+   text-align: center;
+    margin: auto;
+}
+.one-piece h3,p{
+    text-align: center;
+    margin-top: 22px;
+}
+@media screen and (max-width: 480px) {
+    body {
+        font-size: 12px;
+        background-color: lightblue;
+    }
+    .one-piece{
+        flex-direction: column;
+        
+    }
+    section{
+       position: absolute;
+       bottom: 40px;
+    }
+   img{
+    width: 80px;
+    height: 80px;
+    
+   }
+   .pic{
+    height: 100px;
+   }
+}
+form div{
+    margin: auto;
+    text-align: center;
+    color: #ccc;
+}
+input{
+    padding: 5px 25px;
+    margin-bottom: 10px;
+    border:1px solid #ccc;
+  
+}
+button{
+    background:#03b8a7 ;
+    
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+   
+}
+button:hover {
+    background: #028f7a;
+}
